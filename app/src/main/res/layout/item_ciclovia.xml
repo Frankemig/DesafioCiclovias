@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:gravity="center"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin="15sp"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/comuna"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:text="Comuna"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:layout_margin="15sp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:id="@+id/ciclovia"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="46dp" />
+</LinearLayout>
